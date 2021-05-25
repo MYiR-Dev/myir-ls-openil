@@ -42,7 +42,11 @@ config BR2_PACKAGE_HOST_QORIQ_RCW_BOOT_MODE
 	depends on !BR2_PACKAGE_HOST_QORIQ_RCW_CUSTOM_PATH
 	help
 	  Specify the boot mode, for example, sd, emmc, flexspi_nor.
-
+	  
+config BR2_PACKAGE_HOST_QORIQ_RCW_SITE
+       string "qoriq-rcw site"
+       default "https://source.codeaurora.org/external/qoriq/qoriq-components/rcw"
+	   
 config BR2_PACKAGE_HOST_QORIQ_RCW_VERSION
 	string "qoriq-rcw version"
 	default "LSDK-20.04"

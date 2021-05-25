@@ -13,6 +13,8 @@ config BR2_PACKAGE_IMX_GPU_G2D
 	# Library binaries are linked against libc.so.6
 	depends on BR2_TOOLCHAIN_USES_GLIBC
 	select BR2_PACKAGE_IMX_GPU_VIV
+	select BR2_PACKAGE_HAS_LIBEGL
+	select BR2_PACKAGE_HAS_LIBGLES
 	help
 	  Userspace 2D libraries for Vivante GPU on i.MX platforms.
 
