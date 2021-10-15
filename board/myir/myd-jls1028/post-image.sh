@@ -29,7 +29,7 @@ genimage_type()
 		echo "genimage.sd.core.cfg.template"
 	elif grep -Eq "^BR2_DEFCONFIG=\"/media/st/myd-ls1028/OpenIL/test/openil/configs/myd_jls1028_full_image_sd_defconfig\"$" ${BR2_CONFIG}; then
 		echo "genimage.sd.full.cfg.template"
-        elif grep -Eq "^BR2_DEFCONFIG=\"/media/st/myd-ls1028/OpenIL/test/openil/configs/myd_jls1028_factory_image_sd_defconfig\"$" ${BR2_CONFIG}; then
+        elif grep -Eq "^BR2_DEFCONFIG=\"/media/st/myd-ls1028/OpenIL/test/openil_1028/configs/myd_jls1028_factory_image_sd_defconfig\"$" ${BR2_CONFIG}; then
 		                echo "genimage.sd.factory.cfg.template"
 	elif grep -Eq "^BR2_DEFCONFIG=\"/media/qinlh/nxp/openil-1.10/openil/configs/myd_jls1028_core_image_emmc_defconfig\"$" ${BR2_CONFIG}; then
 		echo "genimage.emmc.core.cfg.template"
