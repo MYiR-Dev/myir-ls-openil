@@ -1,0 +1,20 @@
+{
+    "boardinfo":{
+        "board":"myc-y6ulx",
+        "bootinfo":"ST OpenSTLinux - EGLfs -",
+        "function":{
+            "boot":"0",
+            "code":"1",
+            "firmware":"0",
+            "funtest":"0"
+        },
+        "jig_id":"JYALS1028A-TYY0001",
+        "stage":"0",
+        "updatetoserver":"0",
+        "url":"http://ss.myir.cn/",
+        "net":{
+            "name":"eno0"
+        }
+    },
+    "name":"MYS-8MMX"
+}

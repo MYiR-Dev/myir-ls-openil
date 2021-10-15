@@ -1,0 +1,8 @@
+add factory image name ：
+构建厂测镜像时，需要把目标镜像拷贝到此目录。
+这里把没个镜像的名字列了出来：
+otpartition_LS_arm64_lts_5.4.tgz:包含内核、设备树等文件
+firmware_ls1028amyir_uboot_emmcboot.img：包含cw、uboot、atf
+rootfs_lsdk2012_ubuntu_main_arm64.tgz：包含ubuntu文件系统
+
+
